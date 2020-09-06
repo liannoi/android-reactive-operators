@@ -80,9 +80,12 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
-    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
-    implementation "io.reactivex.rxjava2:rxkotlin:$rxKotlinVersion"
-    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    implementation "io.reactivex.rxjava3:rxjava:$rxJavaVersion"
+    implementation "io.reactivex.rxjava3:rxkotlin:$rxKotlinVersion"
+    implementation "io.reactivex.rxjava3:rxandroid:$rxAndroidVersion"
+    implementation "com.jakewharton.rxbinding4:rxbinding:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding4:rxbinding-core:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding4:rxbinding-appcompat:$rxBindingVersion"
 
     // Kotlin
     implementation "androidx.fragment:fragment-ktx:$fragmentVersion"
