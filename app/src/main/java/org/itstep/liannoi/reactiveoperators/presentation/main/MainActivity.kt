@@ -1,7 +1,8 @@
-package org.itstep.liannoi.reactiveoperators
+package org.itstep.liannoi.reactiveoperators.presentation.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import org.itstep.liannoi.reactiveoperators.R
 
 class MainActivity : AppCompatActivity() {
 

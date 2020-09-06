@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ReactiveOperators</string>
+    <string name="app_name">Reactive Operators</string>
+    <string name="main_double">Double Click</string>
 </resources>
